@@ -77,6 +77,8 @@ mod smr
         use std::cmp::min as min;
         use std::cmp::max as max;
         // TODO: Implement "my own version" based on the paper
+        // TODO: Let the possibility to use coefficients
+        // TODO: Let the possibility to use other algorithms
         pub fn distance(str1: &str, str2: &str, max_dist: usize) -> Option<usize>
         {
             let str1_len = str1.chars().count();
